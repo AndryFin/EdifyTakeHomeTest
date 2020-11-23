@@ -6,7 +6,6 @@ exports.config = {
     browserName: 'chrome'
   },
   onPrepare: function (){
-    global.product = browser.params.productName;
     browser.driver.manage().window().maximize();
   }
 }
